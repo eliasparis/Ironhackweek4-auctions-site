@@ -1,0 +1,8 @@
+<%= @product.title%>
+<br>
+<%= @product.products %>
+<br>
+<%= @product.deadline %>
+<br>
+<br>
+<%= link_to("Back to products from user: #{@user.name}", user_products_path(@user)) %>

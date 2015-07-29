@@ -1,0 +1,13 @@
+<%= form_for [@user, @product] do |p| %>
+	<%= p.label :title %>
+	<%= p.text_field :title %>
+	<br>
+	<%= p.label :products %>
+	<%= p.text_field :products %>
+	<br>
+	<%= p.label :deadline %>
+	<%= p.datetime_local_field :deadline %>
+	<br>
+	<%= p.submit "Save" %>
+<%end%>
+<br>
